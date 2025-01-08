@@ -1,0 +1,94 @@
+* General Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dedcdc;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  width: 100%;
+  background-color: #000000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.navbar .search-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+  max-width: 600px;
+}
+
+.navbar .search-form input {
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar .search-form input::placeholder {
+  color: #aaa;
+}
+
+.navbar .submit-btn {
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navbar .submit-btn:hover {
+  background-color: #2C6199;
+}
+
+.navbar .logout-container {
+  margin-left: 20px;
+}
+
+.navbar .logout-btn {
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: white;
+  background-color: #D0021B;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navbar .logout-btn:hover {
+  background-color: #A90016;
+}
+
+/* Main Content Styling */
+main {
+  text-align: center;
+  margin-top: 80px; /* Account for fixed navbar height */
+  padding: 30px 20px;
+}
+
+main h1 {
+  font-size: 2rem;
+  color: #000000;
+}

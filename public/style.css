@@ -1,0 +1,270 @@
+/* Global Styles */
+body {
+  background-color: gray; /* Black background */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff; /* White text as default */
+}
+
+body {
+  background-color: gray; /* Black background */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: #d6cfcf; /* Dark gray container for subtle contrast */
+  border-radius: 12px;
+  padding: 25px 30px;
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-align: center;
+  width: 420px;
+}
+
+.login-container h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000; /* White for text */
+}
+
+.login-container p {
+  margin: 5px 0 15px 0;
+  font-size: 14px;
+  color: #000000; /* Lighter gray for messages */
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #fff; /* White border for inputs */
+  border-radius: 6px;
+  outline: none;
+  background: #000; /* Black input background */
+  color: #fff;
+  font-size: 14px;
+}
+
+.login-container input::placeholder {
+  color: #ccc; /* Lighter gray for placeholder text */
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #fff; /* White border for buttons */
+  border-radius: 6px;
+  background: #000; /* Black button background */
+  color: #fff; /* White button text */
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-container button:hover {
+  background: #fff; /* White background on hover */
+  color: #000; /* Black text on hover */
+}
+
+.login-container .btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.login-container .btn-group a button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid #fff; /* White border for buttons */
+  border-radius: 6px;
+  background: #000; /* Black button background */
+  color: #fff; /* White text */
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.login-container .btn-group a button:hover {
+  background: #fff; /* White background on hover */
+  color: #000; /* Black text on hover */
+}
+
+/* Container Styles for Forms */
+.edit-container, .create-container {
+  background: #d6cfcf; /* Subtle contrast */
+  border-radius: 12px;
+  padding: 25px 30px;
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2);
+  color: #000; /* Dark text for contrast */
+  text-align: left;
+  width: 400px;
+}
+
+.edit-container h2, .create-container h1 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.create-container p {
+  text-align: center;
+  font-size: 14px;
+  color: red;
+}
+
+/* Input Styles */
+.edit-container input, .create-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #000; /* Dark border for inputs */
+  border-radius: 6px;
+  outline: none;
+  background: #fff; /* White input background */
+  color: #000; /* Dark text */
+  font-size: 14px;
+}
+
+.edit-container input::placeholder, .create-container input::placeholder {
+  color: #888; /* Gray placeholder text */
+}
+
+/* Button Styles */
+.edit-container button, .create-container button {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000; /* Dark border for buttons */
+  border-radius: 6px;
+  background: #000; /* Black button background */
+  color: #fff; /* White text */
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.edit-container button:hover, .create-container button:hover {
+  background: #fff; /* White background on hover */
+  color: #000; /* Black text on hover */
+}
+
+/* Back to Admin Panel Button */
+.create-container a button {
+  width: auto;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 6px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.create-container a button:hover {
+  background: #000;
+  color: #fff;
+}
+
+
+/* Container Styles for Create User Page */
+.create-container {
+  background: #d6cfcf; /* Subtle contrast */
+  border-radius: 12px;
+  padding: 25px 30px;
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2);
+  color: #000; /* Dark text for contrast */
+  text-align: left;
+  width: 400px;
+  margin: auto;
+}
+
+.create-container h1 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.create-container p {
+  text-align: center;
+  font-size: 14px;
+  color: red;
+}
+
+/* Input Styles for Create User Page */
+.create-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #000; /* Dark border for inputs */
+  border-radius: 6px;
+  outline: none;
+  background: #fff; /* White input background */
+  color: #000; /* Dark text */
+  font-size: 14px;
+}
+
+.create-container input::placeholder {
+  color: #888; /* Gray placeholder text */
+}
+
+/* Button Styles for Create User Page */
+.create-container button {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000; /* Dark border for buttons */
+  border-radius: 6px;
+  background: #000; /* Black button background */
+  color: #fff; /* White text */
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.create-container button:hover {
+  background: #fff; /* White background on hover */
+  color: #000; /* Black text on hover */
+}
+
+/* Back to Admin Panel Button */
+.create-container a button {
+  width: auto;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 6px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.create-container a button:hover {
+  background: #000;
+  color: #fff;
+}

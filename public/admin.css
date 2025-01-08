@@ -1,0 +1,146 @@
+/* style.css */
+
+/* General Body Styles */
+body {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-panel-container {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #221e1e; /* Dark gray container */
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2);
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff; /* White for header text */
+}
+
+header p {
+  color: #4caf50; /* Greenish color for success messages */
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.header-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.header-actions form input {
+  border: 1px solid #fff; /* White border */
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #000; /* Black input */
+  color: #fff;
+  width: 250px;
+  outline: none;
+}
+
+.header-actions form button,
+.header-actions a button {
+  border: 1px solid #fff; /* White border */
+  border-radius: 6px;
+  background-color: #000; /* Black button background */
+  color: #fff; /* White text */
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header-actions form button:hover,
+.header-actions a button:hover {
+  background-color: #fff; /* White background on hover */
+  color: #000; /* Black text on hover */
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead th {
+  text-align: left;
+  padding: 10px;
+  background-color: #333; /* Darker header background */
+  color: #fff; /* White header text */
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #444; /* Subtle border between rows */
+}
+
+tbody tr:hover {
+  background-color: #222; /* Slightly lighter row on hover */
+}
+
+tbody td:last-child {
+  text-align: center;
+}
+
+/* Buttons in Table */
+button,
+.btn {
+  border: none;
+  background: none;
+  color: #fff; /* White text */
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+button:hover,
+.btn:hover {
+  color: #ff0000; /* Red hover for danger buttons */
+}
+
+.delete-icon {
+  color: #ff0000; /* Red for delete icons */
+}
+
+.delete-icon:hover {
+  color: #ff6666; /* Lighter red on hover */
+}
+
+.fa-edit {
+  color: #4caf50; /* Green for edit icons */
+}
+
+.fa-edit:hover {
+  color: #90ee90; /* Light green on hover */
+}
+
+a {
+  text-decoration: none;
+}
+
+/* No Users Found Row */
+tbody td[colspan="5"] {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: #ccc; /* Light gray */
+}

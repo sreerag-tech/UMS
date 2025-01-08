@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Home</title>
+  <link rel="stylesheet" href="/home.css">
+</head>
+<body>
+  <nav class="navbar">
+    <form class="search-form">
+      <input type="text" placeholder="Search..." required>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+    <div class="logout-container">
+      <a href="/logout">
+        <button class="logout-btn">Log Out</button>
+      </a>
+    </div>
+  </nav>
+  <main>
+    <h1><%= msg %></h1>
+  </main>
+</body>
+</html>
